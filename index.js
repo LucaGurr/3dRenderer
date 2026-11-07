@@ -87,9 +87,13 @@ let angle = 0;
 
 function frame() {
   const dt = 1/FPS;
+  // back movement
+  //
   // dz += 1*dt
   angle += 0.25*Math.PI*dt;
   clear();
+  // for points#
+  //
   // for (const v of vs) {
   //   point(screen(project(translate_z(rotate_xz(v,angle), dz))));
   // }
